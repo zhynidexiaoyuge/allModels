@@ -1,0 +1,29 @@
+.e_tableList{
+  width:1060px;
+  height:195px;
+  font-size:14px;
+  margin-top:60px;
+  color:#6c7987;
+}
+.e_tableHead{
+  width:100%;
+  height:34px;
+  background:#3ca2f9;
+  color:#fff;
+  font-size:16px;
+  text-align: center
+}
+.e_tableHead>tr{
+  height:34px;
+}
+.e_tableBody{
+  text-align: center;
+}
+.e_tableBody>tr{
+  height:32px;
+  line-height: 32px;
+}
+
+.e_tableBody>tr:nth-child(2n-1){
+  background:#ebf6fe;
+}

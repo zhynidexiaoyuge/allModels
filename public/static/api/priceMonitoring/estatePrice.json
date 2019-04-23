@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "properties": "楼盘A",
+      "average_price": 80000,
+      "tb_val": "140%",
+      "transaction_price": "30%",
+      "rent": 80000
+    },
+    {
+      "id": 2,
+      "properties": "楼盘B",
+      "average_price": 60000,
+      "tb_val": "-10%",
+      "transaction_price": "20%",
+      "rent": 60000
+    },
+    {
+      "id": 3,
+      "properties": "楼盘C",
+      "average_price": 40000,
+      "tb_val": "130%",
+      "transaction_price": "40%",
+      "rent": 40000
+    },
+    {
+      "id": 4,
+      "properties": "楼盘D",
+      "average_price": 70000,
+      "tb_val": "140%",
+      "transaction_price": "29%",
+      "rent": 70000
+    },
+    {
+      "id": 5,
+      "properties": "楼盘E",
+      "average_price": 90000,
+      "tb_val": "120%",
+      "transaction_price": "33%",
+      "rent": 90000
+    }
+  ]
+}

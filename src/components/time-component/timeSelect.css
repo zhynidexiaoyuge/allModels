@@ -1,0 +1,209 @@
+/* 下拉组件样式 */
+.hubei-select, .hubei-select-changed {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.hubei-select-changed {
+  color: #1482c8;
+  text-indent: 15px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-bottom: 3px solid #1482c8;
+  position: relative;
+  background: #fff;
+  font-size: 16px;
+  font-weight: bold
+}
+
+.hubei-select-changed span {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 8px;
+  height: 8px;
+  background: url("/static/image/select/arrow.png") no-repeat center;
+  transform: translate(0, -50%) rotateZ(90deg);
+}
+
+.hubei-select-changed .select-changed-down {
+  transform: translate(0, -50%) rotateZ(90deg);
+  transition: transform 300ms;
+}
+
+.hubei-select-changed .select-changed-up {
+  transform: translate(0, -50%) rotateZ(270deg);
+  transition: transform 300ms;
+}
+
+.time-select-box {
+  width: 170px;
+  height: 142px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  box-sizing: border-box;
+  /* border: 1px solid #324d7f; */
+  background: rgba(60,162,249,0.6);
+  border-radius: 1px;
+  transform: scale(0);
+}
+
+.time-select-box ul {
+  position: absolute;
+  top: 35px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+
+.time-select-box ul li {
+  flex: 1 1 29px;
+  height: 28px;
+  margin-bottom: 5px;
+  text-align: center;
+  line-height: 28px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px
+  /* border-radius: 14px; */
+}
+
+.time-select-box ul li:hover {
+  background:#4db9f5;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.time-select-box ul li.active {
+  background:#4db9f5 ;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.time-select-year {
+  height: 12px;
+  width: 84px;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  text-align: center;
+  font-size: 16px;
+  line-height: 12px;
+  color: white
+}
+
+.time-select-year-prev, .time-select-year-next {
+  height: 12px;
+  background: url("/static/image/select/arrow.png") no-repeat center center;
+  flex: 1;
+  cursor: pointer;
+}
+
+.time-select-year-prev {
+  transform: rotateZ(180deg);
+}
+
+.time-select-year-content {
+  flex: 4;
+  color:#fff
+}
+
+.time-select-box-show {
+  transform-origin: 0 0;
+  transform: scale(1);
+  transition: transform 300ms;
+}
+
+.time-select-box-hide {
+  transform-origin: 0 0;
+  transform: scale(0);
+  transition: transform 300ms;
+}
+
+/* 事故总览 */
+.accident-overview-select-box {
+  position: absolute;
+  color: #ffffff;
+  line-height: 26px;
+  font-size: 14px;
+}
+
+.accident-overview-select-text01, .accident-overview-select-text02, .accident-overview-select-text03 {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  height: 26px;
+  line-height: 26px;
+
+}
+
+.accident-overview-select-text02 {
+  left: 202px;
+}
+
+.accident-overview-select-text03 {
+  left: 360px;
+}
+
+.select-query {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #f5f8ff;
+  width: 88px;
+  height: 26px;
+  font-size: 14px;
+  background: url('/static/image/button.png') no-repeat center;
+  background-size: 100% 100%;
+  text-align: center;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+.select-query-single {
+  width: 88px;
+  height: 26px;
+  font-size: 14px;
+  background: url('/static/image/button.png') no-repeat center;
+  background-size: 100% 100%;
+  text-align: center;
+  line-height: 26px;
+  cursor: pointer;
+}
+
+.select-query:hover,
+.select-query-single:hover {
+  background: url('/static/image/buttoned.png') no-repeat center;
+}
+
+/* 事故智能分析 */
+.intelligent-analysis-select-box {
+  position: absolute;
+  color:rgb(108, 121, 135);
+  line-height: 26px;
+  font-size: 14px;
+}
+
+.intelligent-analysis-select-text01, .intelligent-analysis-select-text02 {
+  position: absolute;
+  top: 0;
+  left: 53px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 16px
+}
+
+.intelligent-analysis-select-text02 {
+  left: 210px;
+}

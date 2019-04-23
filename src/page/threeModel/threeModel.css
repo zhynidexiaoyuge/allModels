@@ -1,0 +1,47 @@
+.load{
+  width: 25px;
+  height: 25px;
+  background: url('/static/image/load.png');
+  display: block;
+  position: absolute;
+  right:34px;
+  top:12px;
+  z-index: 10;
+  cursor: pointer;
+}
+.housePrice{
+  right:21px
+}
+.enlarge{
+  width: 24px;
+  height: 24px;
+  background: url('/static/image/magnifier.png');
+  display: block;
+  position: absolute;
+  right:72px;
+  top:13px;
+  z-index: 10;
+  cursor: pointer;
+}
+.search{
+  width: 25px;
+  height: 25px;
+  background: url('/static/image/search.png');
+  display: block;
+  position: absolute;
+  right:79px;
+  top:12px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.policy-analysis-map {
+  width: 1920px;
+  height: 1080px;
+  background-image: url('./image/bg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.changeSize{
+  transform: scale(0.4, 0.4);
+}

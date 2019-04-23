@@ -1,0 +1,158 @@
+
+.ant-table-thead > tr > th{
+  color:rgba(55, 65, 75, 0.7);
+  font-size: 16px;
+  background: #ebebeb;
+}
+.ant-table-tbody > tr.ant-table-row-selected td{
+  font-size: 16px;
+}
+.ant-table-thead > tr, .ant-table-tbody > tr{
+  height: 44px;
+  line-height: 44px;
+}
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td{
+  padding: 0 15px;
+  font-size: 16px;
+}
+.ant-pagination-item {
+  background-color: #f7f7f7;
+  width: 35px;
+  height: 22px;
+  line-height: 22px;
+  margin-right: 0px;
+  border: 0px;
+}
+.ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link{
+  border:0px;
+}
+.ant-pagination-prev, .ant-pagination-next, .ant-pagination-jump-prev, .ant-pagination-jump-next{
+  background-color: #f7f7f7;
+  width: 35px;
+  height: 22px;
+  line-height: 22px;
+  margin-right: 0px;
+  border: 0px;
+}
+.ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link{
+  background-color: #f7f7f7;
+}
+.ant-pagination-item-active a{
+  color:#ffffff !important;
+}
+.ant-pagination-options-quick-jumper input{
+  height: 22px;
+}
+.ant-modal-close{
+  top:11px;
+  right:11px;
+}
+.ant-modal-footer{
+  border:0;
+  text-align: center;
+  padding: 0 15px 40px 15px;
+}
+.ant-btn{
+  width: 110px;
+  height: 36px;
+  border-radius: 0;
+  font-size: 16px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-shadow: none;
+  border: 1px solid #cecece;
+  border-bottom: 2px solid #c3c3c3;
+  background: #f1f1f1;
+  color: #777;
+}
+.ant-btn-primary{
+  border-top-color:transparent;
+  border-left-color:#4ab5f3;
+  border-right-color:#2982da;
+  border-bottom:2px solid #00499f;
+  color:#fff;
+  background: linear-gradient(to right, #4ab5f3 0%, #2982da 100%);
+  transition:none;
+}
+.ant-btn-primary:hover, .ant-btn-primary:focus{
+  border:1px solid transparent;
+  border-bottom:2px solid #00499f;
+  background:#4ab5f3;
+}
+.ant-form{
+  margin-bottom:30px;
+}
+.ant-form input, .ant-form .ant-select-selection{
+  min-width:260px;
+  height:36px;
+  border:1px;
+  border-radius:0;
+  border-bottom:2px solid #1482c8;
+  background:#f4f4f4;
+}
+.ant-select-arrow svg{
+  width: 0;
+  height: 0;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  border-top: 8px solid #21ace0;
+}
+.ant-form-item-label label {
+  color: #6c7987;
+  font-size: 16px;
+}
+.ant-table-tbody > tr > td{
+  border-bottom: 1px dashed #c3c3c3;
+  border-top: 1px dashed #c3c3c3;
+}
+.ant-table-tbody tr:nth-child(2n) td{
+  background:#f3f3f3;
+}
+.ant-table{
+  border: 1px solid #e8e8e8;
+  background: #fbfbfb;
+  border-radius: 5px;
+}
+.ant-table tr:last-child td{
+  border-bottom:none;
+}
+.ant-table-pagination.ant-pagination {
+  background: #f7f7f7;
+}
+.ant-pagination-item-active {
+  height: 22px;
+  line-height: 22px;
+  background: #389ff2;
+  border: 1px solid #0779d8;
+}
+.ant-pagination-total-text{
+  color: #ababab;
+  position:absolute;
+  left:0;
+}
+.ant-pagination-total-text span{
+  color:#2696f0;
+}
+.ant-calendar-range-picker-input{
+  text-align:left;
+  padding:0 10px;
+}
+.ant-calendar-picker-input{
+  height:auto;
+  border:none;
+  outline: none;
+  padding: 0;
+}
+.ant-calendar-picker-icon{
+  margin-right: 10px;
+}
+.ant-calendar-range-picker-separator{
+  width:20px;
+  text-align:center;
+}
+.ant-form-item-label {
+  min-width: 80px;
+}
+.ant-row{
+  margin-bottom:20px;
+}

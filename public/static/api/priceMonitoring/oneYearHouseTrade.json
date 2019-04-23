@@ -1,0 +1,140 @@
+[
+  {
+    "districtId": "110000",
+    "districtName": "北京市",
+    "increase": 0.032624,
+    "speed": 0.016707
+  },
+  {
+    "districtId": "140000",
+    "districtName": "山西省",
+    "increase": 0.001587,
+    "speed": -0.074206
+  },
+  {
+    "districtId": "320000",
+    "districtName": "江苏省",
+    "increase": 0.012534,
+    "speed": 0.013713
+  },
+  {
+    "districtId": "310000",
+    "districtName": "上海市",
+    "increase": -0.036203,
+    "speed": -0.018101
+  },
+  {
+    "districtId": "650000",
+    "districtName": "新疆维吾尔自治区",
+    "increase": 0.211668,
+    "speed": -0.288711
+  },
+  {
+    "districtId": "440000",
+    "districtName": "广东省",
+    "increase": 0.000422,
+    "speed": 0.001461
+  },
+  {
+    "districtId": "430000",
+    "districtName": "湖南省",
+    "increase": -0.071809,
+    "speed": 0.122429
+  },
+  {
+    "districtId": "510000",
+    "districtName": "四川省",
+    "increase": 0.333214,
+    "speed": -0.133393
+  },
+  {
+    "districtId": "420000",
+    "districtName": "湖北省",
+    "increase": 0.108768,
+    "speed": -0.142097
+  },
+  {
+    "districtId": "620000",
+    "districtName": "甘肃省",
+    "increase": -0.06628,
+    "speed": -0.065296
+  },
+  {
+    "districtId": "520000",
+    "districtName": "贵州省",
+    "increase": 0.272251,
+    "speed": -0.325779
+  },
+  {
+    "districtId": "150000",
+    "districtName": "内蒙古自治区",
+    "increase": -0.01357,
+    "speed": -0.006785
+  },
+  {
+    "districtId": "330000",
+    "districtName": "浙江省",
+    "increase": -0.084867,
+    "speed": 0.036893
+  },
+  {
+    "districtId": "360000",
+    "districtName": "江西省",
+    "increase": -0.000089,
+    "speed": -0.000444
+  },
+  {
+    "districtId": "130000",
+    "districtName": "河北省",
+    "increase": 0.047232,
+    "speed": 0.000045
+  },
+  {
+    "districtId": "410000",
+    "districtName": "河南省",
+    "increase": -0.150109,
+    "speed": 0.446716
+  },
+  {
+    "districtId": "120000",
+    "districtName": "天津市",
+    "increase": 0.014912,
+    "speed": -0.048564
+  },
+  {
+    "districtId": "230000",
+    "districtName": "黑龙江省",
+    "increase": -0.11233,
+    "speed": -0.306165
+  },
+  {
+    "districtId": "340000",
+    "districtName": "安徽省",
+    "increase": 0.011916,
+    "speed": 0.059839
+  },
+  {
+    "districtId": "450000",
+    "districtName": "广西壮族自治区",
+    "increase": 0.020691,
+    "speed": 0.056774
+  },
+  {
+    "districtId": "370000",
+    "districtName": "山东省",
+    "increase": 0.045634,
+    "speed": -0.069537
+  },
+  {
+    "districtId": "640000",
+    "districtName": "宁夏回族自治区",
+    "increase": 0,
+    "speed": 0
+  },
+  {
+    "districtId": "210000",
+    "districtName": "辽宁省",
+    "increase": 0.077306,
+    "speed": 0.002939
+  }
+]

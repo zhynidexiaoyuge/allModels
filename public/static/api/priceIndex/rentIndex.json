@@ -1,0 +1,14 @@
+{
+  "msg": "调用成功",
+  "result": [
+    {
+      "statisticalDate": "2018-09",
+      "priceIndex": 122.0
+    },
+    {
+      "statisticalDate": "2018-10",
+      "priceIndex": 2111.0
+    }
+  ],
+  "code": "1"
+}

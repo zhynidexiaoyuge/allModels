@@ -1,0 +1,9 @@
+.dialog-xf-wrap {
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.5);
+  z-index: 999;
+}

@@ -1,0 +1,46 @@
+.app {
+  width: 1920px;
+  height: 1080px;
+  /* background: url("/static/image/bg.png") no-repeat center; */
+}
+.titleTxt{
+  width:1920px;
+  height:80px;
+  line-height: 80px;
+  position:absolute;
+  top:0;
+  left:0;
+  font-size:30px;
+  color:#1c2e40;
+  padding-left:190px;
+  box-shadow: 0 5px 5px 0px #dce5ee;
+  z-index: 1;
+}
+.sideNav{
+  height:1080px;
+  width:90px;
+  line-height: 90px;
+  background:#1c2e40;
+  position:absolute;
+  top:80px;
+  left:0;
+  display:flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.sideNav>a>li{
+  width:100%;
+  height:110px;
+  position:relative;
+}
+.sideNav>a>li>span{
+  position:absolute;
+  bottom:0px;
+  color:#fff;
+  font-size:16px;
+  width:100%;
+  text-align: center;
+  letter-spacing: -1px;
+  /*display:none;*/
+}

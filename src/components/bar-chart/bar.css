@@ -1,0 +1,64 @@
+.imgSrcList{
+  width: 30px;
+  height: 182px;
+  display: flex;
+  position: absolute;
+  top:82px;
+  left:37px;
+  flex-direction: column;
+  justify-content: center;
+}
+.imgSrc{
+  width: 30px;
+  height: 182px;
+  display: flex;
+  position: absolute;
+  top:82px;
+  left:597px;
+  flex-direction: column;
+  justify-content: center;
+}
+.imgSrcList>li{
+  width: 26px;
+  height: 30px;
+  flex:1;
+} 
+.imgSrcList>li:nth-child(1){
+  /* top:32px; */
+  background: url('./img/icon1.png') no-repeat;
+}
+.imgSrcList>li:nth-child(2){
+  /* top:68px; */
+  background: url('./img/icon2.png') no-repeat;
+} 
+.imgSrcList>li:nth-child(3){
+  /* top:105px; */
+  background: url('./img/icon3.png') no-repeat;
+}
+.imgSrcList>li:nth-child(4){
+  /* top:141px; */
+  background: url('./img/icon4.png') no-repeat;
+}
+.imgSrcList>li:nth-child(5){
+  /* top:176px; */
+  background: url('./img/icon5.png') no-repeat;
+}
+
+.leftBtn{
+  width: 22px;
+  height: 72px;
+  background: url('./img/left.png') no-repeat;
+  position: absolute;
+  top:142px;
+  left:23px;
+  cursor: pointer;
+}
+.rightBtn{
+  width: 22px;
+  height: 72px;
+  background: url('./img/right.png') no-repeat;
+  position: absolute;
+  top:142px;
+  right:23px;
+  cursor: pointer;
+}

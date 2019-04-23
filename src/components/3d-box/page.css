@@ -1,0 +1,135 @@
+@keyframes aniturn {
+  0% {
+    transform: rotateX(-10deg) rotateY(-30deg);
+  }
+  100% {
+    transform: rotateX(-10deg) rotateY(30deg);
+  }
+}
+
+@keyframes reaniturn {
+  0% {
+    transform: rotateY(30deg);
+  }
+  100% {
+    transform: rotateY(-30deg);
+  }
+}
+
+.box-xf-stage {
+  position: absolute;
+  perspective: 800px;
+  top: 210px;
+  left: 300px;
+}
+
+.box-xf-wrap {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: aniturn 10s linear infinite alternate;
+}
+
+.box-xf-box-0 {
+  position: absolute;
+  left: 225px;
+}
+
+.box-xf-box-1 {
+  position: absolute;
+}
+
+.box-xf-box-2 {
+  position: absolute;
+  top: 225px;
+}
+
+.box-xf-box-3 {
+  position: absolute;
+  left: 225px;
+  top: 225px;
+}
+
+.box-xf-box-face {
+  width: 200px;
+  height: 200px;
+  border: 3px solid rgba(39,143,251,.15);
+  box-shadow: 0 0 10px rgba(39,143,251,.35);
+  position: absolute;
+}
+
+.box-xf-box-0 > .box-xf-box-face {
+  /* background-color: rgba(252,43,124,.15); */
+  background: linear-gradient(top,rgba(252,43,124,0) 10%,rgba(252,43,124,.15));
+}
+
+.box-xf-box-1 > .box-xf-box-face {
+  /* background-color: rgba(253,168,41,.15); */
+  background: linear-gradient(top,rgba(253,168,41,0) 10%,rgba(253,168,41,.15));
+}
+
+.box-xf-box-2 > .box-xf-box-face {
+  /* background-color: rgba(17,89,172,.15); */
+  background: linear-gradient(top,rgba(17,89,172,0) 10%,rgba(17,89,172,.15));
+}
+
+.box-xf-box-3 > .box-xf-box-face {
+  /* background-color: rgba(42,240,253,.15); */
+  background: linear-gradient(top,rgba(42,240,253,0) 10%,rgba(42,240,253,.15));
+}
+
+.box-xf-box-left {
+  transform: rotateY(-90deg) translateZ(100px);
+}
+
+.box-xf-box-right {
+  transform: rotateY(90deg) translateZ(100px);
+}
+
+.box-xf-box-top {
+  transform: rotateX(90deg) translateZ(100px);
+}
+
+.box-xf-box-bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+}
+
+.box-xf-box-after {
+  transform: translateZ(-100px);
+}
+
+.box-xf-box-before {
+  transform: translateZ(100px);
+}
+
+.box-xf-ball-wrap {
+  /* animation: reaniturn 10s linear infinite alternate; */
+}
+
+.box-xf-ball {
+  width: 30px;
+  height: 30px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: -1px -4px 10px #111 inset;
+  position: absolute;
+  font-size: 14px;
+}
+
+.box-xf-ball-1 {
+  background-color: rgba(252,43,124,.9);
+}
+
+.box-xf-ball-2 {
+  background-color: rgba(253,168,41,.9);
+}
+
+.box-xf-ball-3 {
+  background-color: rgba(17,89,172,.9);
+}
+
+.box-xf-ball-4 {
+  background-color: rgba(42,240,253,.9);
+}

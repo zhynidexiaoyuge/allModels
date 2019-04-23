@@ -1,0 +1,40 @@
+{
+  "msg": "调用成功",
+  "result": [
+    {
+      "year": 2018,
+      "list": [
+        {
+          "areaName": "北京",
+          "avgPrice": 162.5,
+          "transactionNum": null,
+          "year": 2018
+        },
+        {
+          "areaName": "上海",
+          "avgPrice": 400.0,
+          "transactionNum": null,
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "list": [
+        {
+          "areaName": "北京",
+          "avgPrice": 50.0,
+          "transactionNum": null,
+          "year": 2017
+        },
+        {
+          "areaName": "上海",
+          "avgPrice": 500.0,
+          "transactionNum": null,
+          "year": 2017
+        }
+      ]
+    }
+  ],
+  "code": "1"
+}

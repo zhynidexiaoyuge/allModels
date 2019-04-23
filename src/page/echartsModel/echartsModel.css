@@ -1,0 +1,131 @@
+.sys-nav{
+  position:absolute;
+  left:220px;
+}
+.sys-nav li{
+  float:left;
+  height:40px;
+  line-height:40px;
+  margin:0 10px;
+}
+.sys-nav li a{
+  display: block;
+  padding: 0 10px;
+  color: #1159ac;
+  font-size: 16px;
+  cursor: pointer;
+}
+.sys-nav li a:hover{
+  opacity:.6;
+}
+.item-panel{
+  position: absolute;
+  top: 42px;
+  width: 100%;
+  padding: 30px 40px;
+  box-sizing: border-box;
+}
+.btn{
+  width:110px;
+  height:36px;
+  border:0;
+  border-radius:0;
+  font-size:16px;
+  box-shadow:none;
+  text-shadow:none;
+}
+.btn.btn-search{
+  color:#fff;
+  background: linear-gradient(to right, #ffb62a 0%,#ff9600 100%);
+  border-color:transparent;
+  border-bottom:2px solid #c25b00;
+}
+.btn.btn-reset{
+  border: 1px solid #cecece;
+  border-bottom: 2px solid #c3c3c3;
+  background: #f1f1f1;
+  color: #777;
+}
+.tree-box{
+  float: left;
+  width:220px;
+  height:573px;
+  background:#f4f4f4;
+  border-radius:5px;
+  padding: 10px;
+}
+:root .ant-tree.tree-box li span.ant-tree-switcher.ant-tree-switcher_open .ant-tree-switcher-icon, :root .ant-tree.tree-box li span.ant-tree-switcher.ant-tree-switcher_open .ant-select-switcher-icon,
+:root .ant-tree.tree-box li span.ant-tree-switcher.ant-tree-switcher_close .ant-tree-switcher-icon, :root .ant-tree.tree-box li span.ant-tree-switcher.ant-tree-switcher_close .ant-select-switcher-icon{
+  font-size: 18px;
+  line-height:27px;
+  color:#40a6ec;
+}
+.tree-box .ant-tree-title{
+  color:#777;
+}
+.tree-box li .ant-tree-node-content-wrapper-open,
+.tree-box li .ant-tree-node-content-wrapper-close {
+  color: #343434;
+  font-weight: bold;
+}
+.table-box{
+  float:right;
+  width:1440px;
+}
+.con-title{
+  line-height: 30px;
+  border-left: 3px solid #ffb62a;
+  background: -webkit-gradient(linear, right top, left top, color-stop(100%, #f3f6f9),color-stop(0%, #fff));
+  color:#777777;
+  font-size: 14px;
+  margin-bottom:20px;
+}
+.con-title .name{
+  color: #2a84db;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.con-title .op{
+  float: right;
+  line-height: 30px;
+}
+.con-title .op a{
+  margin-right: 20px;
+  color:#777777;
+}
+.con-title .op i{
+  margin-right: 8px;
+}
+.con-title .op i.icon-tianjia{
+  color:#2c9ff7;
+}
+.con-title .op i.icon-error{
+  color:#f76b1f;
+}
+.con-list i.icon-xiugai, .con-title .op i.icon-xiugai{
+  color:#2ab44a;
+}
+.con-title .op i.icon-gengxin{
+   color:#2ab44a;
+ }
+.con-title .op i.icon-fenpei{
+  color:#d8a74c;
+}
+.con-title .op i.icon-qiyong{
+  color:#1f997f;
+}
+.con-title .op i.icon-jinyong{
+  color:#f76e23;
+}
+.con-title .op i.icon-zhongzhi{
+  color:#1f99f7;
+}
+.icon-arrowup, .icon-arrowdown{
+  color:#9e9e9e;
+  font-size: 22px;
+  margin: 0 5px
+}
+.con-list a{color:#777777;}
+.dialog-op{text-align: center;}
+.dialog-op .btn-margin-r{margin-right: 10px;}
+.tc{text-align:center;}

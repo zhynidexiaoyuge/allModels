@@ -1,0 +1,75 @@
+.out-file-xf-wrap {
+  width: 630px;
+  height: 260px;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 1px 0 5px rgba(0,0,0,.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 16px;
+}
+
+.out-file-xf-wrap > .out-file-xf-title {
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  border-bottom: 1px solid #d2d2d2;
+  padding-left: 30px;
+}
+
+.out-file-xf-wrap > .out-file-xf-title > div {
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  cursor: pointer;
+}
+
+.out-file-xf-wrap > .out-file-xf-content {
+  height: 100px;
+  display: flex;
+  position: absolute;
+  top: 80px;
+}
+
+.out-file-xf-wrap > .out-file-xf-content > p {
+  padding-left: 30px;
+}
+
+.out-file-xf-wrap > .out-file-xf-content > textarea {
+  height: 100px;
+  width: 520px;
+  border: 1px solid #d2d2d2;
+}
+
+.out-file-xf-wrap > .out-file-xf-button {
+  width: 270px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.out-file-xf-wrap > .out-file-xf-button .out-file-xf-button-btn {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  background: linear-gradient(to bottom, #4db9f5, #257cd7);
+  border-radius: 50px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  box-sizing: content-box;
+  cursor: pointer;
+}
+
+.out-file-xf-wrap > .out-file-xf-button .out-file-xf-button-btn:hover {
+  border: 5px solid #a1caec;
+}
